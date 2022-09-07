@@ -1,0 +1,17 @@
+/* This file will apply to side trails page only */
+/* To make format the language sub text */
+.st-lang {
+    font-size: 70%;
+    color: grey;
+}
+/* To bold the title of that section */
+.st-title {
+    margin-top: -15px;
+    font-size: 250%;
+    font-weight: bold;
+}
+/* For the one in text link */
+#link {
+    text-decoration: none;
+    color:cornflowerblue;
+}

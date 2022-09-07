@@ -1,0 +1,36 @@
+/* This file will apply to the trail behind page only */
+/*Main content*/
+.ta-big {
+    margin-top: -15px;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+/*Sub content*/
+.ta-small {
+    font-size: 70%;
+    color: grey;
+}
+
+/* Everything below is to make the images appear at their positions */
+.img-wrapper {
+    position: relative;
+    padding:0;
+}
+
+.img-wrapper > * {
+    z-index:10;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.img-wrapper > img {
+    position: absolute;
+    top: 0;
+    z-index:1;
+    margin-left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    bottom: 0;
+}

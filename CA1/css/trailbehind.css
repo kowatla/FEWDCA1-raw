@@ -1,0 +1,16 @@
+/* This file will apply to the trail behind file only */
+/* To align text properly */
+.panel {
+    text-align: left;
+}
+/* To format the year into small */
+.year{
+    font-size: 70%;
+    color: grey;
+}
+/* Format title */
+.title {
+    margin-top: -15px;
+    font-size: 250%;
+    font-weight: bold;
+}

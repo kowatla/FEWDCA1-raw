@@ -1,0 +1,240 @@
+/* Format anis (all) */
+.start_anis {
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-left: 275px;
+}
+.hello_world {
+    font-size: 200%;
+}
+.lang {
+    font-size: 80%;
+}
+.small1 {
+    font-size: 70%;
+    color:grey;
+}
+
+/* Animation for the variables (same for all pages) */
+.lang:before{
+    content: 'change';
+    animation-name: variables;
+    animation-duration:   36s;
+    animation-iteration-count: infinite;
+}
+@keyframes variables {
+    0% {opacity:0; content: ".";}
+    5.5% {opacity:1; content:"language = \"English\""}
+    16.5% {opacity:0; content: ".";}
+    22% {opacity:1; content:"string language = \"Chinese\";"}
+    27.5% {opacity:0; content: ".";}
+    33% {opacity:1; content:"language = \"Japanese\""}
+    38.5% {opacity:0; content: ".";}
+    44% {opacity:1; content:"string language = \"Hindi\";"}
+    49.5% {opacity:0; content: ".";}
+    55% {opacity:1; content:"var language = \"Korean\""}
+    60.5% {opacity:0; content: ".";}
+    66% {opacity:1; content:"String language = \"German\";"}
+    71.5% {opacity:0; content: ".";}
+    77% {opacity:1; content:"var language = \"French\""}
+    82.5% {opacity:0; content: ".";}
+    88% {opacity:1; content:"<html lang=\"it\">"}
+    93.5% {opacity:0; content: ".";}
+    100% {opacity:1; content:"var language = \"Spanish\";"}
+}
+
+/* Animation for the languages (same for all pages) */
+.small1:before{
+    content: 'change';
+    animation-name: langauges;
+    animation-duration:   36s;
+    animation-iteration-count: infinite;
+}
+@keyframes langauges {
+    0% {opacity:0; content: ".";}
+    5.5% {opacity:1; content:"Python"}
+    16.5% {opacity:0; content: ".";}
+    22% {opacity:1; content:"C++"}
+    27.5% {opacity:0; content: ".";}
+    33% {opacity:1; content:"Ruby"}
+    38.5% {opacity:0; content: ".";}
+    44% {opacity:1; content:"C#"}
+    49.5% {opacity:0; content: ".";}
+    55% {opacity:1; content:"Swift"}
+    60.5% {opacity:0; content: ".";}
+    66% {opacity:1; content:"Java"}
+    71.5% {opacity:0; content: ".";}
+    77% {opacity:1; content:"Kotlin"}
+    82.5% {opacity:0; content: ".";}
+    88% {opacity:1; content:"</html>"}
+    93.5% {opacity: 0; content: ".";}
+    100% {opacity:1; content:"JavaScript"}
+}
+
+/* Animation for the start of likes page */
+.cri_ani:before{
+    content: 'change';
+    animation-name: cri_page;
+    animation-duration:   36s;
+    animation-iteration-count: infinite;
+}
+@keyframes cri_page {
+    0% {opacity:0; content: ".";}
+    5.5% {opacity:1; content:"print(\"likes\")"}
+    16.5% {opacity:0; content: ".";}
+    22% {opacity:1; content:"cout << \"喜欢的东西\" << endl;"}
+    27.5% {opacity:0; content: ".";}
+    33% {opacity:1; content:"puts \"好き\""}
+    38.5% {opacity:0; content: ".";}
+    44% {opacity:1; content:"Console.WriteLine(\"को यह पसंद है\");"}
+    49.5% {opacity:0; content: ".";}
+    55% {opacity:1; content:"print(\"좋아하는\")"}
+    60.5% {opacity:0; content: ".";}
+    66% {opacity:1; content:"System.out.println(\"gefallen\");"}
+    71.5% {opacity:0; content: ".";}
+    77% {opacity:1; content:"println(\"aime\")"}
+    82.5% {opacity:0; content: ".";}
+    88% {opacity:1; content:"<h1>piace</h1>"}
+    93.5% {opacity:0; content: ".";}
+    100% {opacity:1; content:"console.log(\"gustos\");"}
+}
+
+/* Animation for the end of likes page */
+.cri_ani_end:before{
+    content: 'change';
+    animation-name: cri_end;
+    animation-duration:   36s;
+    animation-iteration-count: infinite;
+}
+@keyframes cri_end {
+    0% {opacity:0; content: ".";}
+    5.5% {opacity:1; content:"print(\"Thanks for Visiting!\")"}
+    16.5% {opacity:0; content: ".";}
+    22% {opacity:1; content:"cout << \"感谢造访!\" << endl;"}
+    27.5% {opacity:0; content: ".";}
+    33% {opacity:1; content:"puts \"ご覧いただきありがとうございます！\""}
+    38.5% {opacity:0; content: ".";}
+    44% {opacity:1; content:"Console.WriteLine(\"आने के लिए धन्यवाद!\");"}
+    49.5% {opacity:0; content: ".";}
+    55% {opacity:1; content:"print(\"방문해 주셔서 감사합니다!\")"}
+    60.5% {opacity:0; content: ".";}
+    66% {opacity:1; content:"System.out.println(\"Danke für den Besuch!\");"}
+    71.5% {opacity:0; content: ".";}
+    77% {opacity:1; content:"println(\"Merci de votre visite!\")"}
+    82.5% {opacity:0; content: ".";}
+    88% {opacity:1; content:"<h1>Grazie della visita!</h1>"}
+    93.5% {opacity:0; content: ".";}
+    100% {opacity:1; content:"console.log(\"¡Gracias por su visita!\");"}
+}
+
+/* Animation for main page */
+.ind_ani:before{
+    content: 'change';
+    animation-name: ind_page;
+    animation-duration:   36s;
+    animation-iteration-count: infinite;
+}
+@keyframes ind_page {
+    0% {opacity:0; content: ".";}
+    5.5% {opacity:1; content:"print(\"Hello, World!\")"}
+    16.5% {opacity:0; content: ".";}
+    22% {opacity:1; content:"cout << \"你好, 世界!\" << endl;"}
+    27.5% {opacity:0; content: ".";}
+    33% {opacity:1; content:"puts \"こんにちは, 世界!\""}
+    38.5% {opacity:0; content: ".";}
+    44% {opacity:1; content:"Console.WriteLine(\"नमस्ते, दुनिया!\");"}
+    49.5% {opacity:0; content: ".";}
+    55% {opacity:1; content:"print(\"안녕하세요, 월드입니다!\")"}
+    60.5% {opacity:0; content: ".";}
+    66% {opacity:1; content:"System.out.println(\"Hallo, Welt!\");"}
+    71.5% {opacity:0; content: ".";}
+    77% {opacity:1; content:"println(\"Bonjour, le monde!\")"}
+    82.5% {opacity:0; content: ".";}
+    88% {opacity:1; content:"<h1>Ciao, Mondo!</h1>"}
+    93.5% {opacity:0; content: ".";}
+    100% {opacity:1; content:"console.log(\"Hola, Mundo!\");"}
+}
+
+/* Animation for side trails */
+.st_ani:before{
+    content: 'change';
+    animation-name: st_page;
+    animation-duration:   36s;
+    animation-iteration-count: infinite;
+}
+@keyframes st_page {
+    0% {opacity:0; content: ".";}
+    5.5% {opacity:1; content:"print(\"Side Quests\")"}
+    16.5% {opacity:0; content: ".";}
+    22% {opacity:1; content:"cout << \"支线任务\" << endl;"}
+    27.5% {opacity:0; content: ".";}
+    33% {opacity:1; content:"puts \"サイドクエスト\""}
+    38.5% {opacity:0; content: ".";}
+    44% {opacity:1; content:"Console.WriteLine(\"भीतर छिपे सवाल\");"}
+    49.5% {opacity:0; content: ".";}
+    55% {opacity:1; content:"print(\"사이드 퀘스트\")"}
+    60.5% {opacity:0; content: ".";}
+    66% {opacity:1; content:"System.out.println(\"Nebenmissionen\");"}
+    71.5% {opacity:0; content: ".";}
+    77% {opacity:1; content:"println(\"quêtes secondaires\")"}
+    82.5% {opacity:0; content: ".";}
+    88% {opacity:1; content:"<h1>missioni secondarie</h1>"}
+    93.5% {opacity:0; content: ".";}
+    100% {opacity:1; content:"console.log(\"misiones secundarias\");"}
+}
+
+/* Animation for trail ahead */
+.ta_ani:before{
+    content: 'change';
+    animation-name: ta_page;
+    animation-duration:   36s;
+    animation-iteration-count: infinite;
+}
+@keyframes ta_page {
+    0% {opacity:0; content: '.';}
+    5.5% {opacity:1; content:"print(\"What's next\")"}
+    16.5% {opacity:0; content: '.';}
+    22% {opacity:1; content:"cout << \"下一步\" << endl;"}
+    27.5% {opacity:0; content: '.';}
+    33% {opacity:1; content:"puts \"次のステップ\""}
+    38.5% {opacity:0; content: '.';}
+    44% {opacity:1; content:"Console.WriteLine(\"अगला कदम\");"}
+    49.5% {opacity:0; content: '.';}
+    55% {opacity:1; content:"print(\"다음 단계\")"}
+    60.5% {opacity:0; content: '.';}
+    66% {opacity:1; content:"System.out.println(\"nächster Schritt\");"}
+    71.5% {opacity:0; content: '.';}
+    77% {opacity:1; content:"println(\"L'étape suivante\")"}
+    82.5% {opacity:0; content: '.';}
+    88% {opacity:1; content:"<h1>passo successivo</h1>"}
+    93.5% {opacity:0; content: '.';}
+    100% {opacity:1; content:"console.log(\"próximo paso\");"}
+}
+
+/* Animation for trail behind */
+.tb_ani:before{
+    content: 'change';
+    animation-name: tb_page;
+    animation-duration:   36s;
+    animation-iteration-count: infinite;
+}
+@keyframes tb_page {
+    0% {opacity:0; content: ".";}
+    5.5% {opacity:1; content:"print(\"The beginning\")"}
+    16.5% {opacity:0; content: ".";}
+    22% {opacity:1; content:"cout << \"开始\" << endl;"}
+    27.5% {opacity:0; content: ".";}
+    33% {opacity:1; content:"puts \"初め\""}
+    38.5% {opacity:0; content: ".";}
+    44% {opacity:1; content:"Console.WriteLine(\"शुरुवात\");"}
+    49.5% {opacity:0; content: ".";}
+    55% {opacity:1; content:"print(\"시작\")"}
+    60.5% {opacity:0; content: ".";}
+    66% {opacity:1; content:"System.out.println(\"der Anfang\");"}
+    71.5% {opacity:0; content: ".";}
+    77% {opacity:1; content:"println(\"le début\")"}
+    82.5% {opacity:0; content: ".";}
+    88% {opacity:1; content:"<h1>l'inizio</h1>"}
+    93.5% {opacity:0; content: ".";}
+    100% {opacity:1; content:"console.log(\"el principio\");"}
+}

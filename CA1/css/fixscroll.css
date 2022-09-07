@@ -1,0 +1,18 @@
+/* This file will apply to all pages for scroll snapping only */
+/*Snap Scrolling*/
+html, body {height: 100%;}
+body {margin: 0;}
+main {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+.panel {
+    height: 100%;
+    font-size: 30px;
+    scroll-snap-align: center;
+    opacity: 1;
+    padding: 0 380px;
+}
+

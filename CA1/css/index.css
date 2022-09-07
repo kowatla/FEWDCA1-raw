@@ -1,0 +1,17 @@
+/* This file will apply to the first page only */
+/* For starting */
+.intro {
+    font-size: 250%;
+    font-weight: bold;
+}
+
+/* For the main story text */
+.Main {
+    font-size: 190%;
+}
+
+/* For complementary story text */
+.Comp {
+    font-size: 70%;
+    color: grey;
+}

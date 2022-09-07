@@ -1,0 +1,225 @@
+/* This file will apply to the likes page only */
+/* Thick centered text */
+.section {
+    margin-top: -15px;
+    margin-bottom: -10px;
+    font-size: 250%;
+    font-weight: bold;
+}
+/* sub text for languages */
+.lang {
+    font-size: 80%;
+}
+/* small text */
+.small {
+    font-size: 70%;
+    color:grey;
+}
+
+/*Table*/
+/*reduce text size*/
+table {
+    font-size: 65%;
+}
+
+/*format title*/
+caption {
+    font-size: 250%;
+    font-weight: bold;
+    position: relative;
+    text-align: left;
+}
+
+/*format title*/
+th {
+    font-size: 110%;
+    padding: 5px;
+}
+td {
+    font-size: 80%;
+}
+table, th, td {
+    border: white 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/*format individual teas*/
+#first {
+    color: green;
+}
+#second {
+    color: mediumseagreen;
+}
+#third {
+    color: darkolivegreen;
+}
+#fourth {
+    color: darkgreen;
+}
+#five {
+    color: forestgreen;
+}
+
+/*Form*/
+/*guides*/
+.form {
+    height:100%;
+}
+.directory {
+    padding-top: 10px;
+    font-size: 50%;
+    color:grey;
+}
+
+/*First input text box*/
+#f1 {
+    color:white;
+    background-color: black;
+    border: 1px darkred solid;
+    height: 90%;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 110%;
+    border-radius: 7px;
+}
+#f1:hover {
+    border: 1px orangered solid;
+    box-shadow: 0 0 1px 1px darkgrey;
+}
+/* input validation */
+#f1:not(:placeholder-shown) {
+    border-color: hsl(0, 76%, 50%) ;
+} 
+
+/*Second input password box*/
+#f2 {
+    font-family: Verdana, serif;
+    letter-spacing: 0.125em;
+    color:white;
+    background-color: black;
+    border: 1px grey solid;
+    height: 90%;
+    width: 70%;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 50%;
+    border-radius: 7px;
+}
+#f2:hover {
+    border: 1px darkgrey solid;
+    box-shadow: 0 0 1px 1px darkgrey;
+}
+#f2:active {
+    outline: initial none initial;
+    border: 1px white solid;
+    box-shadow: 0 0 2px 2px white;
+}
+
+/*Third input slider*/
+#f3 {
+    cursor: pointer;
+    background-color: black;
+    border: 1px grey solid;
+    height: 90%;
+    width: 70%;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 7px;
+}
+
+/*Fourth and Five input*/
+.container{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px black solid;
+    border-radius: 7px;
+}
+input[type='radio'] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.radio label:hover {
+    border: 1px darkgrey solid;
+    box-shadow: 0 0 1px 1px darkgrey;
+}
+
+.radio input:checked + label {
+    border: 1px white solid;
+    box-shadow: 0 0 1px 1px white;
+}
+
+/*last input email box*/
+#f5 {
+    color:white;
+    background-color: black;
+    border: 1px darkred solid;
+    height: 90%;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 110%;
+    border-radius: 7px;
+}
+#f5:hover {
+    border: 1px indianred solid;
+    box-shadow: 0 0 1px 1px darkgrey;
+}
+/* input validation */
+#f5:not(:placeholder-shown) {
+    border-color: hsl(0, 76%, 50%) ;
+} 
+
+/* Submit button */
+input[type=submit] {
+    background-color: black;
+    border: 1px grey solid;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type=submit]:hover {
+    border: 1px white solid;
+    background-color: white;
+    color:black;
+}
+input[type=submit]:active {
+    border: 1px indianred solid !important;
+    background-color: darkred;
+    color:white;
+}
+
+/* For inputs to be permanatly white after selection */
+input:valid {
+    border: 1px white solid !important;
+}
+input:focus {
+    outline: none;
+    box-shadow: 0 0 2px 2px white;
+}
+/* For submit button */
+input[type='radio'] {
+    width: 150%;
+    background-color: red;
+    
+}

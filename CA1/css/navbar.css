@@ -1,0 +1,43 @@
+/* This file will apply to all pages for the navigation bar */
+/*Clear ugly formatting on nav bar*/
+nav div {
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Position nav on webpage properly*/
+nav {
+    padding-right: 50px; 
+    padding-top: 20px;
+    position: fixed;
+    display: flex;
+    width:100%;
+    justify-content: flex-start;
+    z-index:100000;
+    flex-direction: row-reverse;
+}
+
+/*Style nav elements*/
+nav div a{
+    list-style: none;
+    text-decoration: none;
+    display:flex;
+    color:white;
+    font-size: 30px;
+    right: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/*If on current page of navbar*/
+.currentpage {
+    border-radius: 10px;
+    background-color: darkred;
+}
+
+/*Hover on navbar*/
+nav div a:hover {
+    transform: scale(1.08);
+    border-radius: 10px;
+    background-color: indianred;
+}

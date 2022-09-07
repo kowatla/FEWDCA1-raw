@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Linking css-->
+    <meta charset="UTF-8" />
+    <title>Likes</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/fixscroll.css" />
+    <link rel="stylesheet" href="../css/likes.css" />
+    <link rel="stylesheet" href="../css/animations.css" />
+  </head>
+  <body>
+    <!--Nav Bar-->
+    <nav>
+      <div><a href="sidetrails.html">The Side Trails</a></div>
+      <div><a href="trailahead.html">The Trail Ahead</a></div>
+      <div><a href="trailbehind.html">The Trail Behind</a></div>
+      <div><a href="index.html">The Trip</a></div>
+      <div><a class="currentpage" href="likes.html">Likes</a></div>
+    </nav>
+    <main>
+      <!--The front animation-->
+      <div class="panel start_anis">
+        <div class="lang"></div>
+        <div class="cri_ani hello_world"></div>
+        <div class="small1"></div>
+      </div>
+      <!--Table section-->
+      <div class="panel">
+        <div class="section">
+          <span class="highlight">Scroll down</span> to see my green tea review
+        </div>
+      </div>
+      <!--The actual table-->
+      <div class="panel">
+        <div id="small">Table</div>
+        <table>
+          <caption>
+            Japanese Green Tea &#127811;
+          </caption>
+          <tr>
+            <th>Type</th>
+            <th>How it's made</th>
+            <th>Ingredients</th>
+            <th>Preparation method</th>
+            <th>Rating</th>
+          </tr>
+          <rowgroup>
+            <tr>
+              <th id="first">Sencha</th>
+              <td>
+                cultivated in direct sunlight, harvested in the first or second
+                flush
+              </td>
+              <td>Green Tea Leaves</td>
+              <td>Add near-boiling water for two minutes</td>
+              <td>3/5</td>
+            </tr>
+          </rowgroup>
+          <rowgroup>
+            <tr>
+              <th id="second">Genmaicha</th>
+              <td>harvested during the second flush of sencha</td>
+              <td>Green Tea Leaves, Mochi Rice, Uruchimai</td>
+              <td>Add boiled water for three minutes</td>
+              <td rowspan="2">4/5</td>
+            </tr>
+          </rowgroup>
+          <rowgroup>
+            <tr>
+              <th id="third">Hojicha</th>
+              <td>slowly roasting tightly rolled dried tea leaves</td>
+              <td>Dried Green Tea Leaves and stems</td>
+              <td>
+                gently simmer in a saucepan, add loose leaf, and low steep two
+                minutes
+              </td>
+            </tr>
+          </rowgroup>
+          <rowgroup>
+            <tr>
+              <th id="fourth">Matcha</th>
+              <td>green tea leaves stone-ground into delicate powder</td>
+              <td>Green Tea Powder</td>
+              <td>Cool water for 90s and throughly stir with Matcha</td>
+              <td>4.5/5</td>
+            </tr>
+          </rowgroup>
+          <rowgroup>
+            <tr>
+              <th id="five">Konacha</th>
+              <td>
+                composed of the dust, tea buds and leaves after processing
+                Sencha
+              </td>
+              <td>Green tea dust</td>
+              <td>Boil with water for three minutes</td>
+              <td>-/5</td>
+            </tr>
+          </rowgroup>
+        </table>
+      </div>
+      <!--Feedback form section-->
+      <div class="panel">
+        <div class="section">
+          Scroll down for my <span class="highlight">Feedback Form</span>
+        </div>
+      </div>
+      <!--Start of Form-->
+      <div class="panel">
+        <div class="small">Thanks for visiting my site</div>
+        <div class="section">Gimmie Feedback</div>
+        <div>Provide me with some feedback so that I can improve my site</div>
+        <div class="directory">Scroll down to continue</div>
+      </div>
+      <!--First qn-->
+      <div class="panel">
+        <div class="small">Feedback</div>
+        <div class="section">First of all, who r u?</div>
+        <form>
+          <input
+            required
+            type="text"
+            placeholder="kimi no na wa?"
+            id="f1"
+            required
+            pattern="^\s?(?=\S).*"
+          />
+        </form>
+        <div class="directory">Scroll down to continue</div>
+      </div>
+      <!--Second qn-->
+      <div class="panel">
+        <div class="small">Feedback</div>
+        <div class="section">A lil' secret?</div>
+        <form>
+          <input type="password" placeholder="tell me something" id="f2" />
+        </form>
+        <div class="directory">Scroll down to continue</div>
+      </div>
+      <!--Third qn-->
+      <div class="panel">
+        <div class="small">Feedback</div>
+        <div class="section">u impressed?</div>
+        <form><input type="range" id="f3" /></form>
+        <div class="directory">Scroll down to continue</div>
+      </div>
+      <!--Thur qn-->
+      <div class="panel radio">
+        <div class="small">Feedback</div>
+        <div class="section">nice but useful?</div>
+
+        <input name="useful" id="1" type="radio" />
+        <label for="1" class="container">extremely useful </label>
+
+        <input name="useful" id="2" type="radio" />
+        <label for="2" class="container">somewhat useful </label>
+
+        <input name="useful" id="3" type="radio" />
+        <label for="3" class="container">nah bro </label>
+
+        <input name="useful" id="4" type="radio" />
+        <label for="4" class="container"
+          >somewhat disappointed in content
+        </label>
+
+        <input name="useful" id="5" type="radio" />
+        <label for="5" class="container">content useless </label>
+        <div class="directory">Scroll down to continue</div>
+      </div>
+      <!--Five qn-->
+      <div class="panel radio">
+        <div class="small">Feedback</div>
+        <div class="section">Looking forward to these?</div>
+
+        <input name="forward" id="6" type="checkbox" />
+        <label for="6" class="container">Journey in SP</label>
+
+        <input name="forward" id="7" type="checkbox" />
+        <label for="7" class="container">NUS</label>
+
+        <input name="forward" id="8" type="checkbox" />
+        <label for="8" class="container">Career and Internships</label>
+
+        <input name="forward" id="9" type="checkbox" />
+        <label for="9" class="container">Personal Projects </label>
+
+        <input name="forward" id="10" type="checkbox" />
+        <label for="10" class="container">Personal startup?</label>
+        <div class="directory">Scroll down to continue</div>
+      </div>
+      <!--Six qn-->
+      <div class="panel">
+        <div class="small">Feedback</div>
+        <div class="section">whens ur birthday?</div>
+        <form><input type="date" id="f4" /></form>
+        <div class="directory">Scroll down to continue</div>
+      </div>
+      <!--Seventh qn-->
+      <div class="panel">
+        <div class="small">Feedback</div>
+        <div class="section">wanna hang again?</div>
+        <form>
+          <input
+            type="email"
+            placeholder="email?"
+            id="f5"
+            required
+            pattern="^\s?(?=\S).*"
+          />
+        </form>
+        <form>
+          <input type="submit" id="sub" />
+        </form>
+      </div>
+      <!--The back animation-->
+      <div class="panel start_anis" id="scroll">
+        <div class="lang"></div>
+        <div class="cri_ani_end hello_world"></div>
+        <div class="small1"></div>
+      </div>
+    </main>
+  </body>
+</html>

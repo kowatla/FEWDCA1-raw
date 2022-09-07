@@ -1,0 +1,28 @@
+/*This is the main css file that will be applied to all pages*/
+/* importing fonts and applying to whole webpage */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+* {
+    font-family: 'Titillium Web', SansSerif, serif;
+}
+
+/*Formats the background and text color whole webpage*/
+body {
+    background-color: black;
+    color: white;
+
+}
+
+/* to make content on all pages centerd */
+.panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* higlight specific content */
+.highlight {
+    background-size: 200%;
+    background-image: linear-gradient(transparent 50%, darkred 50%);
+    background-position: -100%;
+}
